@@ -18,7 +18,7 @@ $(document).ready(function() {
     console.log(upperCaseList);
     console.log(typeof upperCaseList);
     upperCaseList.forEach(function(item) {
-    $("ul#gro-list").append("<li>" + item + "</li")
+    $("ul#gro-list").append("<li><input type='checkbox' name='list-" + item + "'><label for='list-" + item + "'>" + item + "</label></li>");
     });
   });
 });

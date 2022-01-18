@@ -1,3 +1,12 @@
 body {
   background-color: wheat;
 }
+
+ul {
+  list-style-type: none;
+  font-size: larger;
+}
+
+label {
+  margin-left: 2%;
+}

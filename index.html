@@ -11,29 +11,43 @@
 </head>
 <body>
   <div class="container">
+    <div class="header jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Grocery List</h1>
+        <p class="lead">This tool takes your form input and returns a upper case, sorted grocery lists. Enter your grocery items in the form below and click "Add Your Items".</p>
+      </div>
+    </div>
     <h1>Use This Tool to Create a Custom Grocery List</h1>
     <form id="grocery">
-      <div class="form-group">
-        <label for="item1">First item:</label>
-        <input id="item1" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="item2">Second item:</label>
-        <input id="item2" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="item3">Third item:</label>
-        <input id="item3" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="item4">Fourth item:</label>
-        <input id="item4" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-        <label for="item5">Fifth item:</label>
-        <input id="item5" class="form-control" type="text">
-      </div>
-      <button type="submit" class="btn-dark">Click to Add Your Items</button>
+      <div class="row">
+        <div class="col">
+          <div class="form-group">
+            <label for="item1">First item:</label>
+            <input id="item1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="item2">Second item:</label>
+            <input id="item2" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="item3">Third item:</label>
+            <input id="item3" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="item4">Fourth item:</label>
+            <input id="item4" class="form-control" type="text">
+          </div>
+        </div>
+        <div class="col">
+          <div class="form-group">
+            <label for="item5">Fifth item:</label>
+            <input id="item5" class="form-control" type="text">
+          </div>
+          <button type="submit" class="btn-dark">Click to Add Your Items</button>
+        </div>
+      </div>  
     </form>
     <div id="list">
       <ul id="gro-list">
